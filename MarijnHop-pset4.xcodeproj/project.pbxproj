@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C641C9911DE452F8006B6EC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C641C9901DE452F8006B6EC7 /* AppDelegate.swift */; };
+		C641C9931DE452F8006B6EC7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C641C9921DE452F8006B6EC7 /* ViewController.swift */; };
+		C641C9961DE452F8006B6EC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C641C9941DE452F8006B6EC7 /* Main.storyboard */; };
+		C641C9981DE452F8006B6EC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C641C9971DE452F8006B6EC7 /* Assets.xcassets */; };
+		C641C99B1DE452F8006B6EC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C641C9991DE452F8006B6EC7 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C641C98D1DE452F8006B6EC7 /* MarijnHop-pset4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MarijnHop-pset4.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C641C9901DE452F8006B6EC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C641C9921DE452F8006B6EC7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C641C9951DE452F8006B6EC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C641C9971DE452F8006B6EC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C641C99A1DE452F8006B6EC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C641C99C1DE452F8006B6EC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C641C98A1DE452F8006B6EC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C641C9841DE452F8006B6EC7 = {
+			isa = PBXGroup;
+			children = (
+				C641C98F1DE452F8006B6EC7 /* MarijnHop-pset4 */,
+				C641C98E1DE452F8006B6EC7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C641C98E1DE452F8006B6EC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C641C98D1DE452F8006B6EC7 /* MarijnHop-pset4.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C641C98F1DE452F8006B6EC7 /* MarijnHop-pset4 */ = {
+			isa = PBXGroup;
+			children = (
+				C641C9901DE452F8006B6EC7 /* AppDelegate.swift */,
+				C641C9921DE452F8006B6EC7 /* ViewController.swift */,
+				C641C9941DE452F8006B6EC7 /* Main.storyboard */,
+				C641C9971DE452F8006B6EC7 /* Assets.xcassets */,
+				C641C9991DE452F8006B6EC7 /* LaunchScreen.storyboard */,
+				C641C99C1DE452F8006B6EC7 /* Info.plist */,
+			);
+			path = "MarijnHop-pset4";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C641C98C1DE452F8006B6EC7 /* MarijnHop-pset4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C641C99F1DE452F8006B6EC7 /* Build configuration list for PBXNativeTarget "MarijnHop-pset4" */;
+			buildPhases = (
+				C641C9891DE452F8006B6EC7 /* Sources */,
+				C641C98A1DE452F8006B6EC7 /* Frameworks */,
+				C641C98B1DE452F8006B6EC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MarijnHop-pset4";
+			productName = "MarijnHop-pset4";
+			productReference = C641C98D1DE452F8006B6EC7 /* MarijnHop-pset4.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C641C9851DE452F8006B6EC7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Marijn Hop";
+				TargetAttributes = {
+					C641C98C1DE452F8006B6EC7 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C641C9881DE452F8006B6EC7 /* Build configuration list for PBXProject "MarijnHop-pset4" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C641C9841DE452F8006B6EC7;
+			productRefGroup = C641C98E1DE452F8006B6EC7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C641C98C1DE452F8006B6EC7 /* MarijnHop-pset4 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C641C98B1DE452F8006B6EC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C641C99B1DE452F8006B6EC7 /* LaunchScreen.storyboard in Resources */,
+				C641C9981DE452F8006B6EC7 /* Assets.xcassets in Resources */,
+				C641C9961DE452F8006B6EC7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C641C9891DE452F8006B6EC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C641C9931DE452F8006B6EC7 /* ViewController.swift in Sources */,
+				C641C9911DE452F8006B6EC7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C641C9941DE452F8006B6EC7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C641C9951DE452F8006B6EC7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C641C9991DE452F8006B6EC7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C641C99A1DE452F8006B6EC7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C641C99D1DE452F8006B6EC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C641C99E1DE452F8006B6EC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C641C9A01DE452F8006B6EC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "MarijnHop-pset4/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nl.mprog.MarijnHop-pset4";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C641C9A11DE452F8006B6EC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "MarijnHop-pset4/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nl.mprog.MarijnHop-pset4";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C641C9881DE452F8006B6EC7 /* Build configuration list for PBXProject "MarijnHop-pset4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C641C99D1DE452F8006B6EC7 /* Debug */,
+				C641C99E1DE452F8006B6EC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C641C99F1DE452F8006B6EC7 /* Build configuration list for PBXNativeTarget "MarijnHop-pset4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C641C9A01DE452F8006B6EC7 /* Debug */,
+				C641C9A11DE452F8006B6EC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C641C9851DE452F8006B6EC7 /* Project object */;
+}
