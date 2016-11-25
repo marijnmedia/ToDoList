@@ -31,11 +31,11 @@
                                         <rect key="frame" x="0.0" y="28" width="288" height="50"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="dE6-6m-U2O" id="0Uw-5X-8NQ">
-                                            <rect key="frame" x="0.0" y="0.0" width="288" height="49.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="288" height="49"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Task" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mBM-vP-CNr">
-                                                    <rect key="frame" x="8" y="14.5" width="272" height="21"/>
+                                                    <rect key="frame" x="8" y="15" width="272" height="19"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -44,6 +44,7 @@
                                             <constraints>
                                                 <constraint firstItem="mBM-vP-CNr" firstAttribute="trailing" secondItem="0Uw-5X-8NQ" secondAttribute="trailingMargin" id="A8k-kP-6NS"/>
                                                 <constraint firstItem="mBM-vP-CNr" firstAttribute="leading" secondItem="0Uw-5X-8NQ" secondAttribute="leadingMargin" id="cvV-HX-zqF"/>
+                                                <constraint firstItem="mBM-vP-CNr" firstAttribute="top" secondItem="0Uw-5X-8NQ" secondAttribute="topMargin" constant="7" id="dSx-2x-bh0"/>
                                                 <constraint firstItem="mBM-vP-CNr" firstAttribute="centerY" secondItem="0Uw-5X-8NQ" secondAttribute="centerY" id="lrW-cK-lXk"/>
                                             </constraints>
                                         </tableViewCellContentView>
@@ -72,16 +73,32 @@
                                     <action selector="addTask:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="uhL-ey-rFK"/>
                                 </connections>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="02i-g9-5Ua">
+                                <rect key="frame" x="130" y="463" width="60" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="WsE-0Z-SnX"/>
+                                    <constraint firstAttribute="width" constant="60" id="pUN-gC-Q2E"/>
+                                </constraints>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <size key="titleShadowOffset" width="5" height="5"/>
+                                <state key="normal" image="Add_btn"/>
+                                <state key="highlighted" image="Add_btn" backgroundImage="Add_btn"/>
+                                <connections>
+                                    <action selector="addButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Y66-8p-AwG"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.93725490199999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="iOX-2r-Pnp" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="0BO-RQ-LVX"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="02i-g9-5Ua" secondAttribute="bottom" constant="45" id="Ciy-Cx-NJB"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="xgv-aw-7eL" secondAttribute="bottom" id="Pbh-D1-f9m"/>
                             <constraint firstItem="iOX-2r-Pnp" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="RJa-dR-m62"/>
                             <constraint firstItem="xgv-aw-7eL" firstAttribute="top" secondItem="iOX-2r-Pnp" secondAttribute="bottom" constant="20" id="WPE-Gx-Sda"/>
                             <constraint firstItem="iOX-2r-Pnp" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="ijQ-Ql-0ij"/>
                             <constraint firstAttribute="trailing" secondItem="xgv-aw-7eL" secondAttribute="trailing" constant="16" id="k5p-p5-oy3"/>
                             <constraint firstItem="iOX-2r-Pnp" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="mXx-UU-YhB"/>
+                            <constraint firstItem="02i-g9-5Ua" firstAttribute="centerX" secondItem="xgv-aw-7eL" secondAttribute="centerX" id="nzZ-4l-Fha"/>
                             <constraint firstItem="xgv-aw-7eL" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="usv-ay-Nsk"/>
                         </constraints>
                     </view>
@@ -121,4 +138,7 @@
             <point key="canvasLocation" x="116" y="199.25037481259372"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Add_btn" width="150" height="150"/>
+    </resources>
 </document>
