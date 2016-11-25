@@ -12,6 +12,8 @@
 		C641C9961DE452F8006B6EC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C641C9941DE452F8006B6EC7 /* Main.storyboard */; };
 		C641C9981DE452F8006B6EC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C641C9971DE452F8006B6EC7 /* Assets.xcassets */; };
 		C641C99B1DE452F8006B6EC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C641C9991DE452F8006B6EC7 /* LaunchScreen.storyboard */; };
+		C641C9A31DE453E0006B6EC7 /* ToDoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C641C9A21DE453E0006B6EC7 /* ToDoCell.swift */; };
+		C6A923951DE88E0D00157351 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A923941DE88E0D00157351 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		C641C9971DE452F8006B6EC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C641C99A1DE452F8006B6EC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C641C99C1DE452F8006B6EC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C641C9A21DE453E0006B6EC7 /* ToDoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoCell.swift; sourceTree = "<group>"; };
+		C6A923941DE88E0D00157351 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				C641C9901DE452F8006B6EC7 /* AppDelegate.swift */,
 				C641C9921DE452F8006B6EC7 /* ViewController.swift */,
 				C641C9941DE452F8006B6EC7 /* Main.storyboard */,
+				C6A923941DE88E0D00157351 /* TableViewController.swift */,
+				C641C9A21DE453E0006B6EC7 /* ToDoCell.swift */,
 				C641C9971DE452F8006B6EC7 /* Assets.xcassets */,
 				C641C9991DE452F8006B6EC7 /* LaunchScreen.storyboard */,
 				C641C99C1DE452F8006B6EC7 /* Info.plist */,
@@ -96,6 +102,7 @@
 				TargetAttributes = {
 					C641C98C1DE452F8006B6EC7 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 9UY4DS35BR;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -137,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C641C9931DE452F8006B6EC7 /* ViewController.swift in Sources */,
+				C641C9A31DE453E0006B6EC7 /* ToDoCell.swift in Sources */,
 				C641C9911DE452F8006B6EC7 /* AppDelegate.swift in Sources */,
+				C6A923951DE88E0D00157351 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +190,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -231,6 +241,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -260,6 +271,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9UY4DS35BR;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "MarijnHop-pset4/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "nl.mprog.MarijnHop-pset4";
@@ -272,6 +285,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9UY4DS35BR;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "MarijnHop-pset4/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "nl.mprog.MarijnHop-pset4";
@@ -299,6 +314,7 @@
 				C641C9A11DE452F8006B6EC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
