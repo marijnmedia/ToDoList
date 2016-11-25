@@ -34,7 +34,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="288" height="49"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Task" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mBM-vP-CNr">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Task" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mBM-vP-CNr">
                                                     <rect key="frame" x="8" y="15" width="272" height="19"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -61,14 +61,14 @@
                                 </connections>
                             </tableView>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Add a task.." textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="iOX-2r-Pnp">
-                                <rect key="frame" x="16" y="84" width="288" height="30"/>
+                                <rect key="frame" x="16" y="79" width="288" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="j8w-GF-wMM"/>
+                                    <constraint firstAttribute="height" constant="40" id="SNT-eV-T3P"/>
                                 </constraints>
                                 <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" returnKeyType="done"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" autocorrectionType="no" spellCheckingType="no" returnKeyType="done"/>
                                 <connections>
                                     <action selector="addTask:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="uhL-ey-rFK"/>
                                 </connections>
@@ -94,12 +94,12 @@
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="02i-g9-5Ua" secondAttribute="bottom" constant="45" id="Ciy-Cx-NJB"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="xgv-aw-7eL" secondAttribute="bottom" id="Pbh-D1-f9m"/>
                             <constraint firstItem="iOX-2r-Pnp" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="RJa-dR-m62"/>
-                            <constraint firstItem="xgv-aw-7eL" firstAttribute="top" secondItem="iOX-2r-Pnp" secondAttribute="bottom" constant="20" id="WPE-Gx-Sda"/>
-                            <constraint firstItem="iOX-2r-Pnp" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="ijQ-Ql-0ij"/>
+                            <constraint firstItem="iOX-2r-Pnp" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="15" id="d1r-es-uOq"/>
                             <constraint firstAttribute="trailing" secondItem="xgv-aw-7eL" secondAttribute="trailing" constant="16" id="k5p-p5-oy3"/>
                             <constraint firstItem="iOX-2r-Pnp" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="mXx-UU-YhB"/>
                             <constraint firstItem="02i-g9-5Ua" firstAttribute="centerX" secondItem="xgv-aw-7eL" secondAttribute="centerX" id="nzZ-4l-Fha"/>
                             <constraint firstItem="xgv-aw-7eL" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="usv-ay-Nsk"/>
+                            <constraint firstItem="xgv-aw-7eL" firstAttribute="top" secondItem="iOX-2r-Pnp" secondAttribute="bottom" constant="15" id="vCu-Yq-O7v"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="My Tasks" id="6h9-kX-uwO">
